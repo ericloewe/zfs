@@ -732,7 +732,7 @@ anytime by the owner (or privileged user) via \fBchattr -p $prjid\fR or
 \fBzfs project -p $prjid\fR.
 
 This feature will become \fBactive\fR as soon as it is enabled and will never
-return to being \fBdisabled\fR. Each filesystem will be upgraded automatically
+return to being \fBenabled\fR. Each filesystem will be upgraded automatically
 when remounted or when new file is created under that filesystem. The upgrade
 can also be triggered on filesystems via `zfs set version=current <pool/fs>`.
 The upgrade process runs in the background and may take a while to complete
